@@ -2,9 +2,9 @@
   "name": "flower",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
-    "start": "index.html"
+    "start": "http-server ."
   },
   "keywords": [],
   "author": "",
