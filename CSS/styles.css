@@ -4,6 +4,8 @@ body {
     padding: 0;
     box-sizing: border-box;
     margin: 0;
+    overflow-x: hidden;
+    overflow-y: hidden;
 
 }
 
@@ -19,6 +21,11 @@ body {
 .multi-flower-3 {
     position: absolute;
     margin-top: 400PX;
+}
+
+.multi-flower-4 {
+    position: absolute;
+    margin-top: 600PX;
 }
 
 .container {
@@ -199,6 +206,36 @@ body {
     }
 
     100% {
-        transform: ;
+        transform: scale(0);
+    }
+}
+
+@keyframes dot {
+
+    0%,
+    12% {
+        transform: scale(0);
+    }
+
+    20% {
+        transform: scale(1.1);
+    }
+
+    25% {
+        transform: scale(0.95);
+    }
+
+    30%,
+    55% {
+        transform: scale(1);
+    }
+
+    58% {
+        transform: scale(1.1);
+    }
+
+    70%,
+    100% {
+        transform: scale(0);
     }
 }
