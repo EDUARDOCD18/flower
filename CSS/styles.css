@@ -87,9 +87,19 @@ button:hover {
     margin: 0;
 }
 
+.modal h2 {
+    margin: 0;
+    font-size: 16px;
+}
+.modal h3{
+    margin: 0;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
 .modal p {
     opacity: 0.7;
-    font-size: 14px;
+    font-size: 12px;
 }
 
 .multi-flower {
